@@ -1,0 +1,19 @@
+{
+    "name": "PIP with Controls",
+    "version": "0.1.0",
+    "description": "Saving timestamps in YT videos",
+    "permissions": ["storage", "tabs","scripting","activeTab"],
+    "host_permissions": ["https://*.youtube.com/*","https://www.udemy.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+      "default_title": "PIP with Controls"
+    },
+    "manifest_version": 3
+  }
